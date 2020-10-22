@@ -1,13 +1,13 @@
 body {
     background-color: white;
-    margin:10% ; padding:10%;
+    
 }
 
 hr {
-    border-style: none;
+    border-style: dotted;
     width: 5%;
     border-width: 5px;
-    border-top-style: dotted;
+    border-top-style: none;
     border-color: gray;
 }
 
@@ -25,3 +25,26 @@ p {
     color: #393b44;
     
 }
+
+/* ####### Class ########### */
+.miami {
+    object-position: 50%-50%;
+    background-position: right;
+    position: relative;
+}
+
+.text {
+
+}
+
+.orpheusphoto {
+    background-color; black;
+    border-left-width: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+">
+        <img class="miami" src="miami.jpeg" alt="Photo from Miami, Brickel Ave"> 
+    </div>
+}
+
+/* ######### ID ############## */
