@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+    margin:10% ; padding:10%;
+}
+
+hr {
+    border-style: none;
+    width: 5%;
+    border-width: 5px;
+    border-top-style: dotted;
+    border-color: gray;
+}
+
+h1 {
+    color: #393b44;
+    
+}
+
+h3 {
+    color: #393b44;
+    
+}
+
+p {
+    color: #393b44;
+    
+}
