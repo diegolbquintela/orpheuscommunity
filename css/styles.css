@@ -4,34 +4,103 @@
   box-sizing: border-box;
   align-items: center;
   text-align: center;
+  font-family: "Dosis", sans-serif;
 }
 
-body,
-html {
-  height: 100%;
-  width: 100%;
-}
-
-.top-container,
-.middle-container {
-  display: grid;
+html,
+body {
   height: 100%;
 }
 
-.top-container .photo,
-.middle-container .photo {
-  max-width: 100%;
-  max-height: 100vh;
-  margin: auto;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Playfair Display", serif;
 }
 
-.joinButton .button {
-  display: inline-block;
-  cursor: pointer;
-  margin-top: 80vh;
-  margin-left: 10vh;
+/* First container */
+#title {
+  height: 100vh;
 }
 
-p {
+.firstText {
   text-align: center;
+  margin: 50vh auto 10%;
+  padding: 3% auto;
+}
+
+.subTitle--1 {
+  font-size: 5vh;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.title--1 {
+  font-size: 4vh;
+}
+
+.community-benefits {
+  padding: 5%;
+}
+
+/* community benefits */
+#benefits-1 {
+  height: 100vh;
+}
+
+.community {
+  margin-top: 40vh;
+}
+
+.community-buttom {
+  font-size: 4vh;
+  /* margin: 10% 3% 0; */
+}
+.community-text {
+  font-size: 1rem;
+}
+
+/* Scorecard */
+#benefits-2 {
+  /* height: 100vh; */
+  background-color: black;
+  color: white;
+}
+
+.scorecard {
+  padding: 5%;
+}
+
+.scorecard h3 {
+  text-align: left;
+}
+.scorecard p {
+  text-align: left;
+}
+
+.scorecard-graph {
+  width: 80%;
+  align-content: center;
+  margin: 7.5% auto;
+}
+
+.scorecard-text {
+  padding: 5%;
+}
+
+/* benefits 3 */
+#benefits-3 {
+  /* height: 100vh; */
+  margin-top: 10vh;
+}
+
+#benefits-3 h3 {
+  text-align: center;
+  margin: 5;
+}
+
+.list-feature {
+  margin: 7.5%;
 }
