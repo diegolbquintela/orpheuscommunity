@@ -21,14 +21,40 @@ h5 {
 }
 
 /* First container */
+.fist-block {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  background-image: url("./images/ny.jpg");
+}
+
+.image {
+  position: absolute;
+  z-index: -10;
+}
+.initial-image {
+  position: relative;
+  z-index: -10;
+  height: 100vh;
+  margin-top: 20rem;
+  border: none;
+  object-fit: cover;
+  width: 100%;
+  height: 120vh;
+  object-position: 4% 10%;
+}
+
 #title {
+  z-index: 10;
   height: 100vh;
 }
 
 .firstText {
+  position: relative;
   text-align: center;
   margin: 50vh auto 10%;
   padding: 3% auto;
+  color: white;
 }
 
 .subTitle--1 {

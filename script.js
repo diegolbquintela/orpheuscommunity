@@ -7,7 +7,8 @@ const btnsShowModal = document.querySelectorAll(".show-modal");
 
 // Modal
 
-const callSubmit = () => document.forms[0].submit;
+// const callSubmit = () => document.forms[0].submit;
+// document.getElementById("form1").submit();
 
 // var myModal = document.getElementById("myModal");
 // var myInput = document.getElementById("myInput");
